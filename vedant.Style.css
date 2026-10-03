@@ -1,0 +1,232 @@
+/* ================================
+   VEDANT KAREKAR - RESUME CSS
+   ================================ */
+
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef1f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ---------- RESUME ---------- */
+.resume {
+    width: 850px;
+    max-width: 95%;
+    min-height: 1100px;
+    margin: 40px auto;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- LEFT SIDEBAR ---------- */
+.sidebar {
+    background: #17202a;
+    color: #fff;
+    padding: 40px 25px;
+}
+
+/* ---------- PROFILE ---------- */
+.profile {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.profile h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #bfc7d1;
+}
+
+/* ---------- SIDEBAR SECTIONS ---------- */
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-section h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
+}
+
+.sidebar-section ul {
+    list-style: none;
+}
+
+.sidebar-section li {
+    font-size: 13px;
+    color: #e2e6ea;
+    margin-bottom: 9px;
+}
+
+/* ---------- CONTACT ---------- */
+.contact p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    word-break: break-word;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+.main {
+    padding: 40px 45px;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #17202a;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+    margin-bottom: 17px;
+    border-bottom: 2px solid #17202a;
+}
+
+/* ---------- SUMMARY ---------- */
+.summary {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* ---------- EDUCATION ---------- */
+.education-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #17202a;
+}
+
+.education-item h3 {
+    color: #17202a;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.education-item p {
+    color: #555;
+    font-size: 14px;
+}
+
+.year {
+    color: #17202a;
+    font-weight: 700;
+}
+
+/* ---------- WORK EXPERIENCE ---------- */
+.experience-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h3 {
+    color: #17202a;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* ---------- CAREER OBJECTIVE ---------- */
+.objective {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* ---------- SKILLS ---------- */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill {
+    background: #17202a;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media screen and (max-width: 700px) {
+
+    .resume {
+        width: 95%;
+        margin: 15px auto;
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        padding: 30px 25px;
+    }
+
+    .main {
+        padding: 30px 25px;
+    }
+
+    .profile h1 {
+        font-size: 25px;
+    }
+
+    .section-title {
+        font-size: 17px;
+    }
+}
+
+/* ---------- PRINT / PDF ---------- */
+@media print {
+
+    body {
+        background: #fff;
+    }
+
+    .resume {
+        width: 100%;
+        max-width: none;
+        min-height: auto;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+}

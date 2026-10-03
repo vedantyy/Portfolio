@@ -1,0 +1,420 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedant Karekar | Resume</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eef1f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26313d;
+}
+
+.resume {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 24px auto;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 31% 69%;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+    background: #17212b;
+    color: white;
+    padding: 38px 28px;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 31px;
+    line-height: 1.05;
+    letter-spacing: 1px;
+}
+
+.sidebar .role {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #b9c5d1;
+    line-height: 1.5;
+}
+
+.side-section {
+    margin-top: 34px;
+}
+
+.side-section h3 {
+    margin: 0 0 12px;
+    font-size: 12px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    color: #8fc5ff;
+}
+
+.contact div {
+    font-size: 12px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    overflow-wrap: anywhere;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    font-size: 12px;
+    margin: 10px 0;
+    padding-left: 13px;
+    position: relative;
+}
+
+.skills li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #8fc5ff;
+}
+
+/* MAIN CONTENT */
+.main {
+    padding: 38px 42px;
+}
+
+.main-section {
+    margin-bottom: 27px;
+}
+
+.main-section h2 {
+    margin: 0 0 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    color: #17212b;
+    border-bottom: 2px solid #dce3ea;
+    padding-bottom: 8px;
+}
+
+.summary {
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* EDUCATION */
+.education-item {
+    margin-bottom: 18px;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h3 {
+    margin: 0 0 4px;
+    font-size: 14px;
+}
+
+.education-item p {
+    margin: 3px 0;
+    font-size: 12.5px;
+    line-height: 1.5;
+}
+
+.year {
+    color: #536273;
+    font-weight: bold;
+}
+
+/* EXPERIENCE */
+.experience-box {
+    border-left: 3px solid #8fc5ff;
+    padding-left: 15px;
+}
+
+.experience-box h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+
+.experience-box p {
+    margin: 0;
+    font-size: 12.5px;
+    line-height: 1.65;
+}
+
+/* STRENGTHS */
+.strengths {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.strengths li {
+    font-size: 12.5px;
+    line-height: 1.45;
+    padding-left: 14px;
+    position: relative;
+}
+
+.strengths li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4d89bd;
+    font-weight: bold;
+}
+
+.objective {
+    font-size: 12.5px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* PRINT */
+@media print {
+    body {
+        background: white;
+    }
+
+    .resume {
+        margin: 0;
+        box-shadow: none;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 850px) {
+    .resume {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar,
+    .main {
+        padding: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+
+        <h1>
+            VEDANT<br>
+            KAREKAR
+        </h1>
+
+        <div class="role">
+            FYBBA Student · Fresher
+        </div>
+
+        <section class="side-section contact">
+
+            <h3>Contact</h3>
+
+            <div>Mapusa, Goa</div>
+
+            <div>9022147414</div>
+
+            <div>
+                vedantkarekar0@gmail.com
+            </div>
+
+        </section>
+
+        <section class="side-section">
+
+            <h3>Skills</h3>
+
+            <ul class="skills">
+
+                <li>Speaking & Communication</li>
+
+                <li>Active Listening</li>
+
+                <li>Helping & Supporting Others</li>
+
+                <li>Teamwork</li>
+
+                <li>Willingness to Learn</li>
+
+                <li>Positive Attitude</li>
+
+            </ul>
+
+        </section>
+
+        <section class="side-section">
+
+            <h3>Profile</h3>
+
+            <div class="role">
+                Responsible, friendly and cooperative,
+                with an interest in developing professional
+                skills and gaining practical experience.
+            </div>
+
+        </section>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <section class="main-section">
+
+            <h2>Professional Summary</h2>
+
+            <p class="summary">
+                Motivated and enthusiastic first-year BBA student
+                at Dempo College with good communication and
+                interpersonal skills. A responsible and helpful
+                individual who is eager to learn, develop new skills,
+                and gain practical experience in a professional
+                environment.
+            </p>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="main-section">
+
+            <h2>Education</h2>
+
+            <div class="education-item">
+
+                <h3>Dempo College</h3>
+
+                <p>
+                    Bachelor of Business Administration (BBA)
+                    — FYBBA B
+                </p>
+
+                <p class="year">
+                    Expected Graduation: 2029
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>Saraswat Higher Secondary School</h3>
+
+                <p>
+                    Higher Secondary (12th)
+                </p>
+
+                <p class="year">
+                    Completed: 2024
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>Saraswat Higher Secondary School</h3>
+
+                <p>
+                    Secondary School (10th)
+                </p>
+
+                <p class="year">
+                    Completed: 2022
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- WORK EXPERIENCE -->
+        <section class="main-section">
+
+            <h2>Work Experience</h2>
+
+            <div class="experience-box">
+
+                <h3>Fresher</h3>
+
+                <p>
+                    Seeking opportunities to gain practical
+                    experience, develop professional skills,
+                    and contribute positively to a team.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PERSONAL STRENGTHS -->
+        <section class="main-section">
+
+            <h2>Personal Strengths</h2>
+
+            <ul class="strengths">
+
+                <li>Responsible and dependable</li>
+
+                <li>Quick learner</li>
+
+                <li>Friendly and cooperative</li>
+
+                <li>Good interpersonal skills</li>
+
+                <li>Comfortable working with others</li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- CAREER OBJECTIVE -->
+        <section class="main-section">
+
+            <h2>Career Objective</h2>
+
+            <p class="objective">
+                To develop my knowledge and professional skills
+                through practical experience while pursuing my
+                BBA, and to contribute positively to an organization
+                while continuously learning and growing.
+            </p>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+```
